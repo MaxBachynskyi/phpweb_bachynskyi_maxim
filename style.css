@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+}
+
+.subject-block {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.table-block {
+    padding: 10px 0;
+}
+
+.table-block div {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.table-block div:last-child {
+    border-bottom: none;
+}
+
+code, pre {
+    background: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
